@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>ADK FORMA Coach</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            // Keeping the same `leaf` and `soil` tokens so existing classes don't need changes.
+            colors: {
+              // Gym-friendly energetic accent palette (orange / warm) mapped to `leaf`.
+              leaf: {
+                50:  '#fff7ed',
+                100: '#ffe6d0',
+                200: '#ffcc9f',
+                300: '#ff9b66',
+                400: '#ff7a3b',
+                500: '#ff6b35',
+                600: '#e0552a',
+                700: '#b13f20',
+                800: '#7f2d17',
+                900: '#4d1a0e'
+              },
+              // Neutral / dark background tones mapped to `soil`.
+              soil: {
+                50:  '#f7f7f8',
+                100: '#eef0f2',
+                200: '#d9dde2',
+                800: '#2b2f33',
+                900: '#111217'
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        background-color: #f7f7f8; /* soil-50 (gym-friendly) */
+      }
+      /* Custom Scrollbar for better aesthetics */
+      ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #cbd5e1; 
+        border-radius: 3px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #94a3b8; 
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "uuid": "https://aistudiocdn.com/uuid@^13.0.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

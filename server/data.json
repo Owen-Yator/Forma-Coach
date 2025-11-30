@@ -1,0 +1,101 @@
+{
+  "history": [
+    {
+      "id": "srv_1764508400051",
+      "timestamp": 1764508400051,
+      "input": {
+        "text": "Activity: Workout\nDuration: 30 minutes\nFitnessLevel: Intermediate\nGoal: General Fitness\nLastMeal: Not provided\nRPE: 6\nEquipment: \nNotes: "
+      },
+      "coaching": {
+        "summary": "Quick coaching for: Activity: Workout",
+        "confidence": 0.6,
+        "suggestions": [
+          "Keep consistent: 3x/week",
+          "Increase load gradually (≈10% per week)"
+        ],
+        "plan": [
+          "5 min warm-up",
+          "Main set at moderate intensity",
+          "5 min cool-down + stretch"
+        ],
+        "workouts": [
+          "Routine A: squats, push-ups, rows — 3 sets of 8-12 reps",
+          "Routine B: 20 min interval cardio"
+        ],
+        "meals": [
+          "Protein + carbs within 2h post-workout (chicken + rice)",
+          "Light snack 30-60m before (banana)"
+        ],
+        "recovery": [
+          "Foam roll 5-10m",
+          "Prioritize 7-9h sleep"
+        ]
+      }
+    },
+    {
+      "id": "srv_1764507994371",
+      "timestamp": 1764507994371,
+      "input": {
+        "text": "Activity: Run\nDuration: 60 minutes\nFitnessLevel: Advanced\nGoal: General Fitness\nLastMeal: Not provided\nRPE: 5\nEquipment: Treadmill\nNotes: "
+      },
+      "coaching": {
+        "summary": "Quick coaching for: Activity: Run",
+        "confidence": 0.6,
+        "suggestions": [
+          "Keep consistent: 3x/week",
+          "Increase load gradually (≈10% per week)"
+        ],
+        "plan": [
+          "5 min warm-up",
+          "Main set at moderate intensity",
+          "5 min cool-down + stretch"
+        ],
+        "workouts": [
+          "Routine A: squats, push-ups, rows — 3 sets of 8-12 reps",
+          "Routine B: 20 min interval cardio"
+        ],
+        "meals": [
+          "Protein + carbs within 2h post-workout (chicken + rice)",
+          "Light snack 30-60m before (banana)"
+        ],
+        "recovery": [
+          "Foam roll 5-10m",
+          "Prioritize 7-9h sleep"
+        ]
+      }
+    },
+    {
+      "id": "srv_1764506990819",
+      "timestamp": 1764506990819,
+      "input": {
+        "text": "Activity: Run\nDuration: 45 minutes\nFitnessLevel: Advanced\nGoal: Strength\nLastMeal: Not provided\nRPE: 8\nEquipment: Treadmill\nNotes: "
+      },
+      "coaching": {
+        "summary": "Quick coaching for: Activity: Run",
+        "confidence": 0.6,
+        "suggestions": [
+          "Keep consistent: 3x/week",
+          "Increase load gradually (≈10% per week)"
+        ],
+        "plan": [
+          "5 min warm-up",
+          "Main set at moderate intensity",
+          "5 min cool-down + stretch"
+        ],
+        "workouts": [
+          "Routine A: squats, push-ups, rows — 3 sets of 8-12 reps",
+          "Routine B: 20 min interval cardio"
+        ],
+        "meals": [
+          "Protein + carbs within 2h post-workout (chicken + rice)",
+          "Light snack 30-60m before (banana)"
+        ],
+        "recovery": [
+          "Foam roll 5-10m",
+          "Prioritize 7-9h sleep"
+        ]
+      }
+    }
+  ],
+  "plans": []
+}
