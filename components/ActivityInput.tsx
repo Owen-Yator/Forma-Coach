@@ -124,3 +124,5 @@ export const ActivityInput: React.FC<ActivityInputProps> = ({ onSubmit, onCancel
     </div>
   );
 };
+// Export default for easier imports
+export default ActivityInput;
